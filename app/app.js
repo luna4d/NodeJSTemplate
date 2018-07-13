@@ -1,4 +1,6 @@
-const root=module.parent.exports.root; // like C# using keyword
+const
+	program	= module.parent.exports
+,	root	= program.root; // like C# using keyword
 
 class app{
 	static main(){

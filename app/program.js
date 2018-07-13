@@ -1,7 +1,8 @@
 // program : referance list like C#
 const
 	program={
-		root:require('./root')
+		load:function(s){return require(s);}
+	,	root:require('./root')
 	,	app:null
 	};
 
