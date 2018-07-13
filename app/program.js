@@ -2,9 +2,12 @@
 const
 	program={
 		root:require('./root')
-	,	app:require('./app')
+	,	app:null
 	};
 
 module.exports=program;
+
+program.app=require('./app');
+
 
 program.app.main(); // entry point
